@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html ,body{
+    width: 100%;
+    min-height: 100%;
+    background-color: #f0f0d8;
+    font-family:'Patrick Hand Sc',cursive;
+}
+
+html section{
+    width:100%;
+    min-height: 100%;
+    margin-bottom: 48px;
+}
+
+html section button{
+    background-color: transparent;
+    padding: 16px 16px;
+    margin:0 16px;
+    transition: all .5s ease;
+    color: #41403e;
+    font-size: 32px;
+    letter-spacing: 1px;
+    outline: none;
+    box-shadow:20px 38px 34px -26px rgba(0,0,0,0.2);
+    border-radius:255px 15px 225px 15px/15px 225px 15px 225px;
+}
+
+html section button:hover{
+    box-shadow: 2px 8px 4px -6px rgba(0,0,0,0.3);
+}
+
+.dotted{
+    border: dotted 7px #41403e;
+}
+.lined{
+    border: solid 7px #41403e;
+}
+.dashed{
+    border: dashed 5px #41403e;
+}
+.dotted_thin{
+    border:dotted 2px #41403e;
+}
+.lined_thin{
+    border:solid 2px #41403e;
+}
+.dashed_thin{
+    border:dashed 2px #41403e;
+}
+
+@media (max-width:620px){
+    body section{
+        margin-bottom: 16px;
+    }
+    body section button{
+        align-self: center;
+        margin-bottom: 32px;
+    }
+}
