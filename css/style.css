@@ -7,6 +7,7 @@ html ,body{
     width: 100%;
     min-height: 100%;
     background-color: #f0f0d8;
+    background-color: #fff;
     font-family:'Patrick Hand Sc',cursive;
 }
 
@@ -38,9 +39,6 @@ html section button:hover{
     box-shadow: 2px 8px 4px -6px rgba(0,0,0,0.3);
 }
 
-.mpt15{
-    margin-top: 15%;
-}
 .dotted{
     border: dotted 7px #41403e;
 }
@@ -61,6 +59,9 @@ html section button:hover{
 }
 
 @media (max-width:620px){
+    body{
+        padding-top: 20px;
+    }
     body section {
         display: -webkit-box;
         display: -webkit-flex;
@@ -79,4 +80,24 @@ html section button:hover{
         align-self: center;
         margin-bottom: 2rem;
     }
+}
+/* 导航 */
+.myhome img{
+    width: 37px;
+    border-radius: 37px;
+    margin: 7px 10px 0 10px;
+}
+/* margin */
+.auto{
+    margin: 0 auto;
+}
+.mpt15{
+    margin-top: 15%;
+}
+.mr5{
+    margin-right: 5px;
+}
+/* font size */
+.f14{
+    font-size: 14px;
 }
