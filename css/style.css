@@ -11,12 +11,17 @@ html ,body{
 }
 
 html section{
+    display: flex;
+    -webkit-justify-content: center;
     width:100%;
     min-height: 100%;
     margin-bottom: 48px;
 }
 
 html section button{
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self:center;
     background-color: transparent;
     padding: 16px 16px;
     margin:0 16px;
@@ -33,6 +38,9 @@ html section button:hover{
     box-shadow: 2px 8px 4px -6px rgba(0,0,0,0.3);
 }
 
+.mpt15{
+    margin-top: 15%;
+}
 .dotted{
     border: dotted 7px #41403e;
 }
@@ -53,11 +61,22 @@ html section button:hover{
 }
 
 @media (max-width:620px){
-    body section{
-        margin-bottom: 16px;
+    body section {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-bottom: 1rem;
     }
-    body section button{
+    body section button {
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
         align-self: center;
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
     }
 }
