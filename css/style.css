@@ -31,7 +31,7 @@ html section button{
     font-size: 32px;
     letter-spacing: 1px;
     outline: none;
-    box-shadow:20px 38px 34px -26px rgba(0,0,0,0.2);
+    box-shadow:20px 50px 34px -26px rgba(0,0,0,0.2);
     border-radius:255px 15px 225px 15px/15px 225px 15px 225px;
 }
 
@@ -87,9 +87,21 @@ html section button:hover{
     border-radius: 37px;
     margin: 7px 10px 0 10px;
 }
+.navbar-logo{
+    float: left;
+    height: 50px;
+}
+
+/* padding */
+.pt5{
+    padding-top:5px ;
+}
 /* margin */
 .auto{
     margin: 0 auto;
+}
+.mt5{
+    margin-top: 5px;
 }
 .mpt15{
     margin-top: 15%;
@@ -97,7 +109,38 @@ html section button:hover{
 .mr5{
     margin-right: 5px;
 }
+/* color */
+.c-fff{
+    color: #ffffff;
+}
 /* font size */
 .f14{
     font-size: 14px;
+}
+.f18{
+    font-size: 18px;
+}
+/* width */
+.w70{
+    width: 60%;
+}
+/* height */
+.h70{
+    height: 100%;
+}
+/* position */
+.left-100{
+    left: -100px;
+}
+.pa{
+    position: absolute;
+}
+.pr{
+    position: relative;
+}
+.b{
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+    margin-top: -2px;
 }
