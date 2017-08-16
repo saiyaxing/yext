@@ -65,7 +65,7 @@ header {
 header h1 {
   color: #ffffff;
   font-size: 18px;
-  font-size: 1.125rem;
+  /*font-size: 1.125rem;*/
 }
 @media only screen and (min-width: 1170px) {
   header {
